@@ -7,7 +7,7 @@
 /* Потом селекторы по тегам */
 
 html {
-
+    font-family: Arial
 }
 
 main {
@@ -15,7 +15,17 @@ main {
     margin: 0px auto;
 }
 
+h2{
+    front-size: 32px;
+    margin: 16px 0px;
+}
+
+h3{
+    margin-top: 8px;
+}
+
 p {
+    line-height: 150%;
 
 }
 
@@ -26,21 +36,32 @@ a {
 /* Колонки */
 
 .row {
-
+    display: flex;
 }
 .col {
-
+    flex:auto;
+    margin-bottom: 24px;
 }
 
 
 /* Потом селекторы по классам */
 
 .text-input {
-
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-color: #C0C0C0;
+    border-style: solid;
+    border-radius: 5px;
 }
 
 .button {
-
+    color: white;
+    background-color: #554AF0;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    margin: 2px;
 }
 
 /* Потом специальные правила по страничкам */
@@ -48,53 +69,93 @@ a {
 /* Login*/
 
 .input-login {
-
-
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 14px;
+    border-color: #C0C0C0;
+    border-style: solid;
+    border-radius: 5px;
 }
 
 
 /* Страничка жанров и тегов */
 
 .genre-first {
-
+    margin: 12px 0px;
+    border: none;
+    border-radius: 4px;
+    background-color: #E1F5EA;
+    padding: 6px 12px;
 }
 
 .genre-second {
-
+    margin: 12px 0px;
+    border: none;
+    border-radius: 4px;
+    background-color: #CBEDFF;
+    padding: 6px 12px;
+    width: 70%;
 }
 
 .genre-third {
-
+    margin: 12px 0px;
+    border: none;
+    border-radius: 4px;
+    background-color: #EEE5BD;
+    padding: 6px 12px;
+    width: 50%;
 }
 
 .genre-fourth {
-
+    margin: 12px 0px;
+    border: none;
+    border-radius: 4px;
+    background-color: #EBDCF9;
+    padding: 6px 12px;
+    width: 30%;
 }
 
 .tag {
-
+    color: #5F9EA0;
 }
 
 /* Страничка популярного */
 
 .cover {
-
+    width: 87%;
 }
 
 /* Страничка подписки  */
 
 .box-green {
-
+    margin: 20px 0px;
+    border: none;
+    border-radius: 4px;
+    background-color: #E1F5EA;
+    padding: 24px 16px;
+    width: 80%;
 }
 
 .box-purple {
-
+    margin: 20px 0px;
+    border: none;
+    border-radius: 4px;
+    background-color: #EBDCF9;
+    padding: 24px 16px;
+    width: 80%;
 }
 
 .text-large {
-
+    font-size: 24px;
+    margin-bottom: 6px;
 }
 
 .button-link {
-
+    color: white;
+    background-color: #554AF0;
+    padding: 12px 14px;
+    border: none;
+    border-radius: 4px;
+    margin: 0px;
+    text-decoration: none;
 }
